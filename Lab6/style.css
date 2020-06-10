@@ -1,0 +1,28 @@
+
+.grey{
+  background-color: lightgray;
+
+}
+#first-block{
+  width:300px;
+  border:15px solid green;
+  padding:50px;
+  margin:20px;
+
+}
+
+#second-block{
+  width:auto;
+  border:10px dashed red;
+  padding:10px;
+  margin:20px;
+
+}
+
+#third-block{
+  width:40;
+  border:5px double blue;
+  padding:20px;
+  margin:20;
+
+}
