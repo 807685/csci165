@@ -5,6 +5,6 @@ say_hello= function(){//variable
     // alert (count); // access the variable
     length = 7.32 //float new_value
     hello="hello";
-    msg=hello;
-    alert(msg+ 'world'+count);
+    msg= hello;
+    alert( msg +  'world' +  count);
   }
