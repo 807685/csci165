@@ -1,4 +1,4 @@
-say _hello= function(){//variable
+say_hello= function(){//variable
   count=54;//defining a
     //variable= value (initilizing)
     count= count* 2; // variable= new_value
