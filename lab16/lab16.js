@@ -37,14 +37,14 @@ jQuery("#outterenterleave").mouseenter(function(){
 
 jQuery("#outertextenterleave").text("mouse enter");
 d=d+ 1;
-jQuery("#OutercounterEnter").text(d + "enters");
+jQuery("#outercounterenter").text(d + "enters");
 });
 n=0;
 jQuery("#outterenterleave").mouseleave(function(){
 
 jQuery("#outertextenterleave").text("mouse leaves");
 n= n+ 1;
-jQuery("#OutercounterEnter").text(n + "leaves");
+jQuery("#outercounterenter").text(n + "leaves");
 });
 //Inner div
 c=0;
@@ -52,7 +52,7 @@ jQuery("innerenterleave").mouseenter(function(){
 
 jQuery("#innertextenterleave").text("mouse enter");
 c=c+ 1;
-jQuery("#innercounterEnter").text(c + "enters");
+jQuery("#innercounterenter").text(c + "enters");
 });
 y=0;
 jQuery("innerenterleave").mouseleave(function(){
