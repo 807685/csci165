@@ -23,12 +23,12 @@ jQuery("#innertextoverout").text ("mouse over");
 a= a+ 1;
 jQuery("#innercounterover").text (a + "overs");
 });
-1 =0;
+ i=0;
 jQuery ("#inneroverout").mouseover(function(){
 
 jQuery("#innertextoverout").text ("mouse out");
 i= i+ 1;
-jQuery("#innercounterout").text (1 + "outs");
+jQuery("#innercounterout").text (i + "outs");
 });
 //Enter and Leave Events
 //outer div
