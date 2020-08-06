@@ -44,7 +44,7 @@ jQuery("#outterenterleave").mouseleave(function(){
 
 jQuery("#outertextenterleave").text("mouse leaves");
 n= n+ 1;
-jQuery("#outercounterenterleave").text(n + "leaves");
+jQuery("#outercounterleave").text(n + "leaves");
 });
 //Inner div
 c=0;
