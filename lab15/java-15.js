@@ -17,7 +17,7 @@ jQuery ('#history').html (new_div_content);
                                         }
 sub = function(){
   result = parseInt(jQuery( '#op1').val()) - parseInt(jQuery('#op2').val());
-                                          
+
 text = jQuery( '#op1').val() + " - " + jQuery('#op2').val() + " = " ;
 
 jQuery('#result').val(text + result);
@@ -58,8 +58,8 @@ jQuery ('#history').html (new_div_content);
 }
 show= function (){
 jQuery ('#history ').show ()
-  }   hide= function (){
-jQuery ('#history ').hide ()// or use  // jQuery ('#history'). attr ('style', 'display:none');
+  }  hide= function(){
+jQuery ('#history ').hide (); // or use  // jQuery ('#history'). attr ('style', 'display:none');
 
 setup = function(){
 jQuery('#add_button').click(add);

@@ -61,4 +61,5 @@ jQuery("#innertextenterleave").text ("mouse leave");
 y=y + 1;
 jQuery("#innercounterleave").text (y + "leaves");
 });
+}
 jQuery(document). ready (setup)
