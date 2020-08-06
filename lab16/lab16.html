@@ -1,0 +1,50 @@
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="lab16.js"> </script>
+<style>
+div.in{
+  width: 60%;
+  height:60%;
+  background-color:#ff69b4;
+  margin: 10px auto;
+
+  }
+div.out{
+    width: 40%;
+    margin:10px;
+    /*height:140px;*/
+    background-color:blue;
+    float:left;
+  }
+    p{
+      line-height: 1em;
+      margin:0;
+      padding:0;
+    }
+</style>
+</head>
+<body>
+
+<div id= "outteroverout" class="out">
+  <p id="outertextoverout" move your mouse</P>
+<div id ="inneroverout"  class="in">
+  <P id ="innertextoverout"> move your mouse</p>
+<p id= "innercounterover" > 0</p>
+<p id= "innercounterOut" > 0</p>
+  </div>
+<p id="outercounterOver">0</p>
+<p id="outercounterOut">0</p>
+  </div>
+<div id= "outterenterleave"class="out">
+<p id="outertextenterleave"move your mouse</P>
+<div id ="innerenterleave" class="in">
+<P id ="innertextenterleave">move your mouse</p>
+<p id= "innercounterEnter" >0</p>
+<p id= "innercounterleave" >0</p>
+  </div>
+  <p id ="outercounterEnter">0</p>
+  <p id ="outercounterLeave">0</p>
+  </div>
+    </body>
+    </html>
