@@ -22,7 +22,7 @@ text = jQuery( '#op1').val() + " - " + jQuery('#op2').val() + " = " ;
 
 jQuery('#result').val(text + result);
 
-styled_result = "<span id = 'addstyle'>" + text + result + "</span>";
+styled_result = "<span id = 'substyle'>" + text + result + "</span>";
 old_div_content =jQuery('#history').html();
 new_div_content = old_div_content + styled_result +'<br>';
 jQuery ('#result').html (text + result );
@@ -37,23 +37,23 @@ text = jQuery( '#op1').val() + " / " + jQuery('#op2').val() + " = " ;
 
 jQuery('#result').val(text + result);
 
-styled_result = "<span id = 'addstyle'>" + text + result + "</span>";
+styled_result = "<span id = 'divstyle'>" + text + result + "</span>";
 old_div_content =jQuery('#history').html();
 new_div_content = old_div_content + styled_result +'<br>';
-jQuery ('#result').html (text + result );
+jQuery ('#result').html (text + result);
 jQuery ('#history').html (new_div_content);
     }
 
 mul = function(){
 result = parseInt(jQuery( '#op1').val()) * parseInt(jQuery('#op2').val());
 
-text = jQuery( '#op1').val() + " * "+  jQuery('#op2').val() + " = " ;
+text = jQuery( '#op1').val() + " * "+ jQuery('#op2').val() + " = " ;
 jQuery('#result').val(text + result);
 
-styled_result = "<span id = 'addstyle'>" + text + result + "</span>";
+styled_result = "<span id = 'mulstyle'>" + text + result + "</span>";
 old_div_content =jQuery('#history').html();
 new_div_content = old_div_content + styled_result +'<br>';
-jQuery ('#result').html (text + result );
+jQuery ('#result').html (text + result);
 jQuery ('#history').html (new_div_content);
 }
 show= function (){
