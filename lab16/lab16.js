@@ -33,7 +33,7 @@ jQuery("#innercounterout").text(i + "outs");
 //Enter and Leave Events
 //outer div
 d=0;
-jQuery("#outterenterleave").mousenter(function(){
+jQuery("#outterenterleave").mouseenter(function(){
 
 jQuery("#outertextenterleave").text("mouse enter");
 d=d+ 1;
@@ -48,7 +48,7 @@ jQuery("#OutercounterEnter").text(n + "leaves");
 });
 //Inner div
 c=0;
-jQuery("innerenterleave").mousenter(function(){
+jQuery("innerenterleave").mouseenter(function(){
 
 jQuery("#innertextenterleave").text("mouse enter");
 c=c+ 1;
