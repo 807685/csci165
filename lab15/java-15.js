@@ -60,7 +60,7 @@ show= function (){
 jQuery ('#history ').show ()}
 hide= function(){
 jQuery ('#history ').hide (); // or use  // jQuery ('#history'). attr ('style', 'display:none');
-
+}
 setup = function(){
 jQuery('#add_button').click(add);
  jQuery('#sub_button').click(sub);
