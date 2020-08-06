@@ -40,7 +40,7 @@ d=d+ 1;
 jQuery("#OutercounterEnter").text(d + "enters");
 });
 n=0;
-Query("#outterenterleave").mouseleave(function(){
+jQuery("#outterenterleave").mouseleave(function(){
 
 jQuery("#outertextenterleave").text("mouse leaves");
 n= n+ 1;
