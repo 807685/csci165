@@ -57,8 +57,8 @@ jQuery ('#result').html (text + result );
 jQuery ('#history').html (new_div_content);
 }
 show= function (){
-jQuery ('#history ').show ()
-  }  hide= function(){
+jQuery ('#history ').show ()}
+hide= function(){
 jQuery ('#history ').hide (); // or use  // jQuery ('#history'). attr ('style', 'display:none');
 
 setup = function(){

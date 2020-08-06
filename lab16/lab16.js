@@ -48,14 +48,14 @@ jQuery("#outercounterenter").text(n + "leaves");
 });
 //Inner div
 c=0;
-jQuery("innerenterleave").mouseenter(function(){
+jQuery("#innerenterleave").mouseenter(function(){
 
 jQuery("#innertextenterleave").text("mouse enter");
 c=c+ 1;
 jQuery("#innercounterenter").text(c + "enters");
 });
 y=0;
-jQuery("innerenterleave").mouseleave(function(){
+jQuery("#innerenterleave").mouseleave(function(){
 
 jQuery("#innertextenterleave").text("mouse leave");
 y=y + 1;
